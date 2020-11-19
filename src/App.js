@@ -9,10 +9,10 @@ function App() {
       <div>
         Hi now with Auth!
 
-        <AmplifySignOut/>
+        {/* <AmplifySignOut/> */}
       </div>
     </div>
   );
 }
 
-export default withAuthenticator(App);
+export default App;
